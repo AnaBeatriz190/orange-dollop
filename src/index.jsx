@@ -3,11 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './Components/App';
 import reportWebVitals from './reportWebVitals';
+import ComponenteInterativo from './Components/ComponenteInterativo/ComponenteInterativo'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <ComponenteInterativo />
   </React.StrictMode>
 );
 
